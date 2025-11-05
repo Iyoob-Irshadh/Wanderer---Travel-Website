@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderer</title>
+    <link rel="icon" href="flat-travel-background-vector.jpg">
+    <link rel="stylesheet" href="ogheader.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+
+      nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: black;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+        .card:hover{
+            background-color: brown;
+            color: white;
+        }
+
+        .carousel-item img{
+            border-radius: 10px;
+        }
+
+        .carousel-caption h1 {
+              font-family: 'Playfair Display', serif;
+        }
+
+.carousel-caption p {
+  font-family: 'Poppins', sans-serif;
+  bottom: 10px;
+  position: relative;
+}
+
+.text-center{
+    bottom: 10px;
+    position: relative;
+}
+
+        .card-img-top {
+            height: 300px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .card-body {
+            min-height: 120px;
+    }
+
+    .blah{
+        left: 105px;
+        top: 25px;
+        opacity: 90%;
+        position: relative;
+    }
+
+    .carousel-control-prev,
+.carousel-control-next {
+  top: 50%;
+  transform: translateY(-50%);
+}
+    </style>
+</head>
+<body>
+    <header>
+    <div class="header ms-4 ">
+        <h1 class="fw-bold  mb-0">Wanderer</h1>
+        <p style="font-weight: 500;  text-align: left;">Your Ultimate Travel Guide</p>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="header.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="service2.html">Service</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <p class="text-center mt-4">Welcome to Wanderer - your ultimate travel guide!</p>
+
+    <!-- Hero Carousel Start -->
+     <div class="position-relative mx-auto" style="width: 800px;">
+<div id="heroCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="img/hero6.jpg" class="d-block mx-auto" style="border-radius: 5px;" height="430px" width="800px" alt="Slide 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Travel the World With Us</h2>
+        <p>Discover beautiful destinations and unforgettable adventures</p>
+        <div class="blah">
+        <a href="destinations.html" class="btn btn-light btn-sm position-absolute end-0 bottom-0">Explore</a>
+        </div>
+     </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="img/hero1.jpg" class="d-block mx-auto" height="430px" width="800px" alt="Slide 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Explore the Wonders</h2>
+        <p>From tropical beaches to snowy peaks</p>
+        <div class="blah">
+        <a href="destinations.html" class="btn btn-light btn-sm position-absolute end-0 bottom-0">Explore</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="img/hero7.jpg" class="d-block mx-auto" height="430px" width="800px" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Your Journey Begins Here</h2>
+        <p>Plan your perfect trip with us</p>
+        <div class="blah">
+        <a href="destinations.html" class="btn btn-light btn-sm position-absolute end-0 bottom-0">Explore</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/heroburj.jpg" class="d-block mx-auto" height="430px" width="800px" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Explore the Unexpected</h2>
+        <p>Every city has a secret waiting to be found.</p>
+        <div class="blah">
+        <a href="destinations.html" class="btn btn-light btn-sm position-absolute end-0 bottom-0">Explore</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/hero4.jpg" class="d-block mx-auto" height="430px" width="800px" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Cities that Never Sleep</h2>
+        <p>Lights, food, culture — explore it all.</p>
+        <div class="blah">
+        <a href="destinations.html" class="btn btn-light btn-sm position-absolute end-0 bottom-0">Explore</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="img/hero5.jpg" class="d-block mx-auto" height="430px" width="800px" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Journeys Made Simple</h2>
+        <p>Tailored travel for dreamers, explorers, and adventurers.</p>
+        <div class="blah">
+        <a href="destinations.html" class="btn btn-light btn-sm position-absolute end-0 bottom-0">Explore</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Navigation buttons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+<!-- Hero Carousel End -->
+
+<p class="text-center mb-0">Grab your opportunity to travel around the world. Wanna know more about us?</p><br>
+<div class="text-center">
+<a href="about.html" class="btn btn-success btn-sm text-center btn-justify-content-center">Know More</a>
+</div>
+
+    <div class="homedest">
+        <h1 class="fw-bold" style="margin-left: 110px; top: 40px; position: relative;">Most Popular Destinations</h1><br>
+    
+    <div class="container my-4">
+        
+        <div class="row mb-4">
+            <div class="col-lg-4 d-flex">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title text-center">
+                            <h4>Bali</h4>
+                            <img src="img/8994658f-13ad-4106-bde4-856450359f47.avif" class="card-img-top" alt="">
+                            <div class="card-text">
+                                🌴 Bali — the “Island of the Gods” — is a tropical paradise in Indonesia that blends lush landscapes, spiritual heritage, and vibrant culture into one unforgettable destination. <br>
+                                <a href="#bali-details" class="mt-2 btn btn-primary btn-sm">Know More</a>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 d-flex">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title text-center">
+                            <h4>Japan</h4>
+                            <img src="img/Japan-2107x1406.jpg" class="card-img-top" alt="">
+                            <div class="card-text">
+                                🌴 Japan is a fascinating blend of ancient tradition and cutting-edge modernity — a country where serene temples sit beside neon-lit skyscrapers, and centuries-old rituals coexist with futuristic tech.
+                                <a href="#japan-details" class="mt-2 btn btn-primary btn-sm">Know More</a>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 d-flex">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title text-center">
+                            <h4>Maldives</h4>
+                            <img src="img/wp4483177.webp" class="card-img-top" alt="">
+                            <div class="card-text">
+                                🏝️ The Maldives — a dreamscape of turquoise waters, white-sand beaches, and overwater villas — is a tropical paradise in the Indian Ocean that feels like it was made for postcards and daydreams.
+                                <a href="#maldives-details" class="mt-2 btn btn-primary btn-sm">Know More</a>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="destinations.html" style="margin-left: 15px;">See More Destinations</a>
+    </div>
+
+<div class="footer w-100">
+    <p>&copy;Wanderer - All rights reserved</p>
+    <p>Contact - wethewanderer@gmail.com | +91 9840123456</p>
+    </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
